@@ -1,0 +1,131 @@
+body{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#principal{
+    width: 1024px;
+    margin: 50px auto;
+}
+
+.header-top{
+    height: 50px;
+    background: #162028;
+    position: relative;
+}
+.logo{
+    margin: 8px 0 0 130px;
+}
+.header-nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+.header-nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav li{
+    list-style: none;
+    display: inline-block;
+    margin:0px 15px 0 0;
+    padding: 14px; 
+}
+.header-nav a{
+    color: rgb(42, 55, 64);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+.header-nav a:hover{
+    color: rgb(255, 255, 255);
+}
+.portifolio{
+   text-align: center;
+   padding: 50px 100px;
+}
+
+.portifolio h1{
+    font-size: 36px;
+    color: #252525;
+}
+.portifolio p{
+    font-size: 17px;
+    line-height: 2;
+    color: #555;
+}
+
+.gallery{
+    color: #555;
+    padding: 0 100px 50px 100px;
+    overflow: auto;
+}
+
+.gallery-card{
+    width: 32%;
+    float: left;
+    text-align: center;
+    
+}
+.gallery-title{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.about{
+    background-color: #003d52;
+    padding: 100px;
+    color: white;
+    background-image: url(imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.about h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.about p{
+    font-size: 17px;
+    line-height: 2;
+    width: 70%;
+}
+
+#contact{
+    margin: 50px 0;
+}
+
+#contact address{
+    color: #143f52;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+}
+
+.maps{
+    width: 100%;
+    height: 450px;
+    margin-top: 70px;
+}
+
+.maps iframe{
+    width: 100%;
+}
+footer{
+    background: #0b171f;
+    color: #6f8597;
+    text-align: center;
+    font-size: 12px;
+    padding: 25px;
+    letter-spacing: 5px;
+}
